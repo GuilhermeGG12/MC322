@@ -1,4 +1,4 @@
 # Aluno
-* `Guilherme Gomes Gonçalves´
+* Guilherme Gomes Gonçalves
 # Curso
-* `Ciência da Computação - 42´
+* Ciência da Computação - 42
