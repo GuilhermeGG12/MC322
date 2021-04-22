@@ -1,4 +1,4 @@
-package mc332.lab04;
+package mc322.lab04;
 
 public class PosValida {
 	public static boolean noTabuleiro(int x, int y) {

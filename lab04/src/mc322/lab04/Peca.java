@@ -1,4 +1,4 @@
-package mc332.lab04;
+package mc322.lab04;
 
 public class Peca {
 	private char estado;
@@ -10,7 +10,7 @@ public class Peca {
 			this.estado = '-';
 	}
 	
-	char getEstado() { // Retorna o estado da peça
+	char getEstado() { // Retorna o estado da peï¿½a
 		return this.estado;
 	}
 }
