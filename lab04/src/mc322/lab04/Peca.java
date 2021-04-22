@@ -10,7 +10,7 @@ public class Peca {
 			this.estado = '-';
 	}
 	
-	char getEstado() { // Retorna o estado da pe�a
+	char getEstado() { // Retorna o estado da peça
 		return this.estado;
 	}
 }

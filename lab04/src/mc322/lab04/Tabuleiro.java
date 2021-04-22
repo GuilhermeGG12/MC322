@@ -3,7 +3,7 @@ package mc322.lab04;
 public class Tabuleiro {
 	private Peca[][] pecas; 
 	
-	Tabuleiro() { // Inicializa Tabuleiro, insere as pe�as e retira a do meio
+	Tabuleiro() { // Inicializa Tabuleiro, insere as peças e retira a do meio
 		this.pecas = new Peca[7][7];	
 		for(int i = 0; i < 7; i++) {
 			for(int j = 0; j < 7; j++) {
@@ -29,59 +29,59 @@ public class Tabuleiro {
 		intermY = (atualY + alvoY) / 2;
 		
 		if(!PosValida.noTabuleiro(atualX, atualY)) {
-			System.out.println("Inv�lida: Atual fora do Tabuleiro");
+			System.out.println("Inválida: Atual fora do Tabuleiro");
 			return false;
 		}
 		
 		if(!PosValida.noTabuleiro(alvoX, alvoY)) {
-			System.out.println("Inv�lida: Alvo fora do Tabuleiro");
+			System.out.println("Inválida: Alvo fora do Tabuleiro");
 			return false;
 		}
 		
 		if(atualX == alvoX && atualY == alvoY) {
-			System.out.println("Inv�lida: Atual e Alvo nas mesmas posi��es");
+			System.out.println("Inválida: Atual e Alvo nas mesmas posições");
 			return false;
 		}
 		
 		if(atualX != alvoX && atualY != alvoY) {
-			System.out.println("Inv�lida: Movimento na diagonal");
+			System.out.println("Inválida: Movimento na diagonal");
 			return false;
 		}
 		
 		if(this.pecas[atualX][atualY].getEstado() == '-') {
-			System.out.println("Inv�lida: Atual est� vazio");
+			System.out.println("Inválida: Atual está vazio");
 			return false;
 		}
 		
 		if(this.pecas[alvoX][alvoY].getEstado() == 'P') {
-			System.out.println("Inv�lida: Alvo tem pe�a");
+			System.out.println("Inválida: Alvo tem peça");
 			return false;
 		}
 		
 		if(Math.abs(atualX - alvoX) > 2 || Math.abs(atualY - alvoY) > 2) {
-			System.out.println("Inv�lida: Mais de uma pe�a intermediaria");
+			System.out.println("Inválida: Mais de uma peça intermediaria");
 			return false;
 		}
 		
 		if(this.pecas[intermX][intermY].getEstado() == '-') {
-			System.out.println("Inv�lida: Intermediaria vazia");
+			System.out.println("Inválida: Intermediaria vazia");
 			return false;
 		}
 		
 		return true;
 	}
 	
-	private void inserePeca(int x, int y) { // Insere pe�a no tabuleiro
+	private void inserePeca(int x, int y) { // Insere peça no tabuleiro
 		if(PosValida.noTabuleiro(x, y))
 			this.pecas[x][y] = new Peca(true);
 	}
 	
-	private void retiraPeca(int x, int y) { // Retira pe�a do tabuleiro
+	private void retiraPeca(int x, int y) { // Retira peça do tabuleiro
 		if(PosValida.noTabuleiro(x, y))
 			this.pecas[x][y] = new Peca(false);
 	}
 	
-	public void realizaA�ao(String comando) { // Executa o movimento indicado
+	public void realizaAcao(String comando) { // Executa o movimento indicado
 		int atualX, atualY, alvoX, alvoY, intermX, intermY;
 		if(!eh_valido(comando))
 			return;

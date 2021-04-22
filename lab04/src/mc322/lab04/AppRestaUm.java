@@ -12,7 +12,7 @@ public class AppRestaUm {
 		tabuleiro.imprimeTabuleiro();
 		for(int i = 0; i < commands.length; i++) {
 			System.out.println();
-			tabuleiro.realizaA�ao(commands[i]);
+			tabuleiro.realizaAcao(commands[i]);
 			estados[i + 1] = tabuleiro.desenhaTabuleiro();
 			System.out.println("Source: " + commands[i].substring(0, 2));
 			System.out.println("Target: " + commands[i].substring(3, 5));
