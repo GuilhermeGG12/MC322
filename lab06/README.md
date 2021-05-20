@@ -10,6 +10,7 @@ Para executar o jogo, execute o programa AppMundoWumpus passando como parâmetro
 * c -> Herói captura o ouro;
 * q -> O usuário sai do jogo.
 
+## Arquivos Java
 [Arquivos Java lab06](scr/mc322/lab06)
 
 # Destaques de Arquitetura
