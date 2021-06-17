@@ -4,6 +4,7 @@ import src.core.Position;
 import src.core.Size;
 
 import java.awt.*;
+import java.awt.image.BufferedImage;
 
 public abstract class Entity {
 	protected Position position;
@@ -16,7 +17,7 @@ public abstract class Entity {
 
 	public abstract void update();
 
-	public abstract Image getSprite();
+	public abstract BufferedImage getSprite();
 
 	public Position getPosition() {
 		return position;

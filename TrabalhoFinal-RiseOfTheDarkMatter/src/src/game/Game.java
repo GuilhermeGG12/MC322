@@ -4,6 +4,7 @@ import src.controller.PlayerController;
 import src.display.Display;
 import src.entities.Entity;
 import src.entities.Player;
+import src.gfx.Spritesheet;
 import src.input.Command;
 
 import java.util.ArrayList;
@@ -13,10 +14,12 @@ public class Game {
 	private Display display;
 	private List<Entity> entity;
 	private Command command;
+	public static Spritesheet spritesheet;
 
 	public Game(int width, int height) {
 		Command command = new Command();
-		display = new Display(800, 600, command);
+		display = new Display(16*18, 16*17, command);
+		spritesheet = new Spritesheet("/assets/spritesheet.png");
 		entity = new ArrayList<>();
 		entity.add(new Player(new PlayerController(command)));
 	}
