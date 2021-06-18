@@ -12,7 +12,7 @@ public class Spritesheet {
 		try {
 			spritesheet = ImageIO.read(getClass().getResource(filepath));
 		} catch(IOException e){
-			System.out.println("Não foi possível acessar o arquivo do diretório " + filepath);
+			System.out.println("NÃ£o foi possÃ­vel acessar o arquivo do diretÃ³rio " + filepath);
 		}
 	}
 	

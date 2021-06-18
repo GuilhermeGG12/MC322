@@ -37,8 +37,8 @@ public class Display extends JFrame {
 		BufferStrategy bufferStrategy = canvas.getBufferStrategy();
 		Graphics g = bufferStrategy.getDrawGraphics();
 
-		g.setColor(Color.PINK);
-		g.fillRect(0, 0, getWidth(), getHeight());
+		g.setColor(Color.BLACK);
+		g.fillRect(0, 0, 16*18*3, 16*17*3);
 
 		renderer.render(game, g);
 
