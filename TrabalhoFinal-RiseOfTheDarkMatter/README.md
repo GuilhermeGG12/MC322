@@ -26,7 +26,7 @@ _Rise Of The Dark Matter_ é um jogo de estratégia em turnos no qual o jogador 
 
 ## Diagrama Geral do Projeto
 
-[Diagrama Geral](assets/ComponentesGeral.png)
+[Diagrama Geral](assets/ComponentesGeral.jpg)
 
 > <Faça uma breve descrição do diagrama.>
 
