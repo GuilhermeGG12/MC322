@@ -28,7 +28,7 @@ _Rise Of The Dark Matter_ é um jogo de estratégia em turnos no qual o jogador 
 
 ![Diagrama Geral](assets/ComponentesGerais.jpg)
 
-> <Faça uma breve descrição do diagrama.>
+> O componente Game é responsável por inicializar o GameMap que irá se comunicar com as os componentes Entity que se comunicam com o componente Controller e este, por fim, se comunica com o GameMap.
 
 ## Diagrama Geral de Componentes
 
