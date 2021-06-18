@@ -1,0 +1,5 @@
+Mapa com fog ainda
+Tiles de Themeria e Tiles dos Dark Matter
+Objetivo capturar todos os tiles dos dark matter e Castelos(?)
+Recursos pelo mapa e aqueles castelos menores(?)
+GUI para passar turno, recrutar unidades ver gold, ver tiles restantes e já capturados...
