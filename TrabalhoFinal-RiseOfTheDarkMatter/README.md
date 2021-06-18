@@ -2,8 +2,10 @@
 
 # Descrição Resumida do Projeto/Jogo
 
+
 _Rise Of The Dark Matter_ é um jogo de estratégia em turnos no qual o jogador irá controlar o Reino de Themerin na jornada para reconquistar os territórios perdidos para os temíveis Dark Matter.A cada turno o jogador poderá se mover pelo mapa com o objetivo de dominar todos as casas do mapa/tabuleiro, porém seus inimigos também irão tentar defender e conquistar novos territórios para si. Recursos espalhados pelo mapa podem ser capturados para aumentar o ouro do seu reino e consequentemente ser usado para criar novas unidades de exército. Por fim, ganha quem conseguir o controle de todo o mapa.
-=======
+
+
 # Projeto `<Rise Of The Dark Matter>`
 
 # Descrição Resumida do Projeto/Jogo
