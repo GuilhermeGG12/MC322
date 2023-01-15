@@ -145,4 +145,4 @@ DivisaoNaoInteira | Indica uma divisão não inteira.
 
 
 ## Codigo game ---> 
-[Link para game](TrabalhoFinal-RiseOfTheDarkMatter/src/src/game/)
+[Link para game](TrabalhoFinal-RiseOfTheDarkMatter/src/src/game)
